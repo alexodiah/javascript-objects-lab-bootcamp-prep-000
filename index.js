@@ -45,6 +45,6 @@ function destructivelyDeleteFromObjectByKey(object, key){
 //   8) Objects destructivelyDeleteFromObjectByKey(object, key) modifies the original object:
 
 function Objects destructivelyDeleteFromObjectByKey(object, key) {
-  Object.key = 'gari'
+  object.key = 'gari'
 }
 

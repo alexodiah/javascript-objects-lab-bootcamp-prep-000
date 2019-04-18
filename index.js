@@ -10,13 +10,13 @@ function updateObjectWithKeyAndValue(object, key, value){
 
 
 //   4) Objects destructivelyUpdateObjectWithKeyAndValue(object, key, value) updates `object` with the given `key` and `value` (it is destructive) and returns theentire updated object:
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object = new Object{
-    prop2: 2,
-    prop: 1;
-  }
-  return object
-}
+// function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+//   object = new Object{
+//     prop2: 2,
+//     prop: 1;
+//   }
+//   return object
+// }
 
 
 //   5) Objects deleteFromObjectByKey(object, key) deletes `key` from a clone of object and returns the new object (it is non-destructive):

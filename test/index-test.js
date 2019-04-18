@@ -26,7 +26,7 @@ describe('Objects', function() {
 
   describe('destructivelyUpdateObjectWithKeyAndValue(object, key, value)', function() {
     it('updates `object` with the given `key` and `value` (it is destructive) and returns the entire updated object', function() {
-      var obj = { prop2: 1 }
+      var obj = { prop: 1 }
 
       expect(destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)).toMatch({
         prop: 1,

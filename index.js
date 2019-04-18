@@ -13,7 +13,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
     
     if(object !== null){
-         object[key] = value;
+         object.key = value;
     }
     
   return object

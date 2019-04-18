@@ -28,7 +28,6 @@ function deleteFromObjectByKey(object, key){
 
 
 //   6) Objects deleteFromObjectByKey(object, key) does not modify the original object (it is non-destructive):
-
 function deleteFromObjectByKey(object, key) {
   var obj = delete object.key
   return obj;

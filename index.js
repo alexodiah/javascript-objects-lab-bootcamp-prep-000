@@ -37,7 +37,7 @@ function deleteFromObjectByKey(object, key) {
 //   7) Objects destructivelyDeleteFromObjectByKey(object, key) returns object without the delete key/value pair:
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  return {}; 
+  return remove; 
 }
 
 

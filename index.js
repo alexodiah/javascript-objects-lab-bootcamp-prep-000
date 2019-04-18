@@ -27,9 +27,9 @@ function deleteFromObjectByKey(object, key){
 }
 
 
-
-
 //   6) Objects deleteFromObjectByKey(object, key) does not modify the original object (it is non-destructive):
+
+
 
 
 

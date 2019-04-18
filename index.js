@@ -12,9 +12,9 @@ function updateObjectWithKeyAndValue(object, key, value){
   //4) Objects destructivelyUpdateObjectWithKeyAndValue(object, key, value) updates `object` with the given `key` and `value` (it is destructive) and returns theentire updated object:
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
     
-    //if(object !== null){
+    if(object !== null){
          object[key] = value;
-    // }
+    }
     
   return object
 }
